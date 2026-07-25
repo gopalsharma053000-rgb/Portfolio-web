@@ -27,11 +27,11 @@ const Navbar = () => {
         <div className='h-screen absolute md:hidden left-0 top-0 w-52 bg-gray-700 z-50 p-5'>
           <RxCross2 size={40} onClick={()=> setIsOpen(false)} className='cursor-pointer text-black'/>
           <div className='flex flex-col mt-10 font-extrabold text-xl gap-8'>
-            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='/tech'>Tech Stack</a> 
-            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='/project'>Project</a>
-            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='/about'>About</a>
-            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='/'>Home</a>
-            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='/contact'>Contact</a>
+            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='#tech'>Tech Stack</a> 
+            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='#project'>Project</a>
+            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='#about'>About</a>
+            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='#'>Home</a>
+            <a onClick={()=>setIsOpen(false)} className='sm:hover:underline md:hover:underline' href='#contact'>Contact</a>
           </div>
         </div>
       )}
