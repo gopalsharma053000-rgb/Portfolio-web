@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../assets/Resume/Myresume.gopal.pdf';
+import Resume from '../assets/Resume/ResumeMy.pdf';
 
 const About = () => {
   return (
