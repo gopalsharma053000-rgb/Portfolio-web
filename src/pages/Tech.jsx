@@ -136,7 +136,7 @@ const Tech = () => {
         whileInView={{ opacity:1,x:0 }}
          transition={{ duration: 1.5, ease:'easeOut' }}
           > 
-            <img src={aws} className='w-40 h-40 mx-auto object-contain' alt="AWS" />
+            {/* <img src={aws} className='w-40 h-40 mx-auto object-contain' alt="AWS" />
             <h1 className='text-[25px] text-white text-center pt-1.5 pb-1 font-semibold'>AWS(Amazon Web Services)</h1>
             <p className='bg-violet-400 text-sm p-1.5 font-medium'>Leveraging cloud infrastructure for hosting, storage and deployment.</p>
           </motion.div>
@@ -144,7 +144,7 @@ const Tech = () => {
           initial={{ opacity:0, x:200 }}
         whileInView={{ opacity:1,x:0 }}
          transition={{ duration: 2, ease:'easeOut' }}
-          >
+          > */}
             <img src={docker} className='w-40 h-40 mx-auto object-contain' alt="DOCKER" />
             <h1 className='text-[25px] text-white text-center pt-1.5 pb-1 font-semibold'>DOCKER</h1>
             <p className='bg-violet-400 text-sm  p-1.5 font-medium'>Containerizing applications to ensure consistency across different development and production environments.</p>

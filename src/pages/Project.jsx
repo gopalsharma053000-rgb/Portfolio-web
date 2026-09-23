@@ -28,18 +28,6 @@ function Project() {
        className='bg-[#C42700] py-1 px-5 font-semibold hover:bg-orange-500 active:border-2 active:bg-orange-900 cursor-pointer rounded'
        href='https://my-unique-weather-app-2026.netlify.app/' target='_blank' rel='noopener noreferrer'>Weather App</a>
       </div>
-      <div className='mt-1.5 flex'>
-        <h1 className='text-indigo-400 font-semibold text-[25px]'>Click Here</h1>
-        <div className='relative text-cyan-400 text-[25px] top-2 left-2.5'>
-          <FaArrowRight />
-        </div>
-      </div>
-      <div className='mt-1.5 relative mb-1.5 left-36'>
-       <a 
-       className='bg-[#DBDB2E] py-1 px-7 font-semibold active:bg-amber-600 hover:bg-amber-500 active:border-2 cursor-pointer rounded'
-       href="https://unique-notes-application.netlify.app/" target='_blank' rel='noopener noreferrer'>Notes App</a>
-       <p className='bg-amber-700 w-62 px-6 mt-2.5 -ml-16  rounded font-semibold text-white text-sm md:text-xl md:w-82'>Using Frontend and Backend.</p>
-      </div>
     </div>
   )
 }
